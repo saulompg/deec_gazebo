@@ -3,8 +3,8 @@
 <launch>
   <!-- gazebo args -->
   <arg name="world_name" default="$(find deec_gazebo)src/worlds/deec.world" doc="Default world"/>-->
-  <arg name="paused" default="false" doc="Starts gazebo in paused mode" />
-  <arg name="gui" default="true" doc="Starts gazebo gui" />
+  <arg name="paused" default="false" doc="Starts gazebo in paused mode"/>
+  <arg name="gui" default="true" doc="Starts gazebo gui"/>
 
   <!-- include gazebo_ros launcher -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
