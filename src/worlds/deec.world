@@ -20,11 +20,11 @@
      <light name='light_0' type='directional'>
       <cast_shadows>0</cast_shadows>
       <pose frame=''>0 0 10 3.14159 -1.46852 3.14159</pose>
-      <specular>0.1 0.1 0.1 1</specular>
       <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
         <range>1000</range>
-        <constant>0.95</constant>
+        <constant>0.9</constant>
         <linear>0.01</linear>
         <quadratic>0.001</quadratic>
       </attenuation>
@@ -452,7 +452,7 @@
       </light>
       
       <light name='light_0'>
-        <pose>0 0 10 -3.14159 -0 0</pose>
+        <pose>0 0 10 2.146341001 0.912421001 -1.548006001</pose>
       </light>
       
     </state>
