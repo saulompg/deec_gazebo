@@ -416,7 +416,7 @@
       </model>
       
       <model name='lar_shelf'>
-        <pose>3.19293 -4.2895 0.033 0 -0 1.5708</pose>
+        <pose>3.19293 -4.363109 0.033 0 -0 1.5708</pose>
         <scale>1 1 1</scale>
         <link name='shelf'>
           <pose>3.19293 -4.2895 1.01 0 -0 1.5708</pose>
@@ -427,7 +427,7 @@
       </model>
       
       <model name='lar_wardrobe_0'>
-        <pose>4.53367 -1.94275 0.033 0 0 -3.14159</pose>
+        <pose>4.604039 -1.94275 0.03365 0 0 -3.14159</pose>
         <scale>1 1 1</scale>
         <link name='wardrobe'>
           <pose>4.53367 -1.94275 0.585 0 0 -3.14159</pose>
@@ -437,10 +437,10 @@
         </link>
       </model>
       <model name='lar_wardrobe_1'>
-        <pose>1.31006 4.27998 0.033 0 -0 1.5708</pose>
+        <pose>1.31006 4.27998 0.03365 0 -0 -1.5708</pose>
         <scale>1 1 1</scale>
         <link name='wardrobe'>
-          <pose>1.31006 4.27998 0.585 0 -0 1.5708</pose>
+          <pose>0 0 0.585 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
