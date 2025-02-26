@@ -2,7 +2,7 @@
 <sdf version='1.7'>
   <model name='lar_chair'>
     <link name='chair'>
-      <pose>0 0 0 0 -0 0</pose>
+      <pose>0 0 0.4 0 -0 0</pose>
       <inertial>
         <inertia>
           <ixx>1</ixx>
