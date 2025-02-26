@@ -2,7 +2,7 @@
 <sdf version='1.7'>
   <model name='lar_chair'>
     <link name='chair'>
-      <pose>0 0 0.4 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
       <inertial>
         <inertia>
           <ixx>1</ixx>
@@ -40,7 +40,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ros/catkin_ws/src/lar_gazebo/src/models/lar_chair/meshes/lar_chair.dae</uri>
+            <uri>model://lar_chair/meshes/lar_chair.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

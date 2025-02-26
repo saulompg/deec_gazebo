@@ -40,7 +40,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ros/catkin_ws/src/lar_gazebo/src/models/lar_table_pc/meshes/lar_table_pc.dae</uri>
+            <uri>model://lar_table_pc/meshes/lar_table_pc.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

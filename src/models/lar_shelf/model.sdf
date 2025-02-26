@@ -29,21 +29,18 @@
         <cast_shadows>0</cast_shadows>
         <transparency>0</transparency>
         <material>
-          <lighting>1</lighting>
-          <ambient>1 1 1 1</ambient>
-          <diffuse>1 1 1 1</diffuse>
-          <specular>1 1 1 1</specular>
-          <emissive>0 0 0 1</emissive>
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <script>
-            <name>ModelPreview_10::shelf::visual_MATERIAL_</name>
-            <uri>__default__</uri>
-          </script>
         </material>
       </visual>
       <collision name='collisions'>
+        <geometry>
+          <mesh>
+            <uri>model://lar_shelf/meshes/lar_shelf.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
