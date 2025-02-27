@@ -11,9 +11,9 @@
   <arg name="robot_namespace" default="/"/>
   
   <!-- Position of Husky -->
-  <arg name="x" default="-3.0"/>
-  <arg name="y" default="-2.5"/>
-  <arg name="z" default="0.15"/>
+  <arg name="x" default="-3.2"/>
+  <arg name="y" default="-3.5"/>
+  <arg name="z" default="0.185"/>
   <arg name="yaw" default="0.0"/>
   
   <!-- include world launcher -->
