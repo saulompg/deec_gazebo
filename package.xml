@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>deec_gazebo</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The deec_gazebo package</description>
 
   <maintainer email="saulo.gomes@ufba.br">Saulo Matos Pereira Gomes</maintainer>
-
+  <author email="saulo.gomes@ufba.br">Saulo Matos Pereira Gomes</author>
+  
   <license>BSD</license>
-  <!-- <url type="website">http://wiki.ros.org/deec_gazebo</url> -->
+  <url type="website">https://github.com/saulompg/deec_gazebo</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>robot_state_publisher</build_depend>
