@@ -5,7 +5,7 @@
     
     <light name='sun' type='directional'>
       <cast_shadows>0</cast_shadows>
-      <pose frame=''>0 0 10 0 -0 0</pose>
+      <pose frame=''>0 0 10 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -251,90 +251,90 @@
       <iterations>0</iterations>
       
       <model name='ground_plane'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose frame=''>0 0 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='deec_floor'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='floor'>
-          <pose>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>0 0 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='deec_walls'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='walls'>
-          <pose>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>0 0 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
             
       <model name='lar_table_pc_0'>
-        <pose>0.624067 0.76162 0.033 0 -0 0</pose>
+        <pose>0.624067 0.76162 0.033 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='pc_table'>
-          <pose>0.624067 0.76162 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>0.624067 0.76162 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_table_pc_1'>
-        <pose>-1.44181 0.82437 0.033 0 -0 0</pose>
+        <pose>-1.44181 0.82437 0.033 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='pc_table'>
-          <pose>-1.44181 0.82437 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>-1.44181 0.82437 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_table_pc_2'>
-        <pose>-3.47813 0.783437 0.033 0 -0 0</pose>
+        <pose>-3.47813 0.783437 0.033 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='pc_table'>
-          <pose>-3.47813 0.783437 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>-3.47813 0.783437 0 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_table_pc_3'>
-        <pose>4.11329 1.71673 0.033 0 -0 3.14159</pose>
+        <pose>4.11329 1.71673 0.033 0 0 3.14159</pose>
         <scale>1 1 1</scale>
         <link name='pc_table'>
-          <pose>4.11329 1.71673 0 0 -0 3.14159</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>4.11329 1.71673 0 0 0 3.14159</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_table_pc_4'>
-        <pose>2.90728 1.71213 0.033 0 -0 3.14159</pose>
+        <pose>2.90728 1.71213 0.033 0 0 3.14159</pose>
         <scale>1 1 1</scale>
         <link name='pc_table'>
-          <pose>2.90728 1.71213 0 0 -0 3.14159</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>2.90728 1.71213 0 0 0 3.14159</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
@@ -343,9 +343,9 @@
         <scale>1 1 1</scale>
         <link name='chair'>
           <pose>-1.46938 1.12841 0.4 0 0 -1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
@@ -354,9 +354,9 @@
         <scale>1 1 1</scale>
         <link name='chair'>
           <pose>-3.52553 1.11191 0.4 0 0 -1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
@@ -365,42 +365,42 @@
         <scale>1 1 1</scale>
         <link name='chair'>
           <pose>0.579752 1.13044 0.4 0 0 -1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_chair_3'>
-        <pose>2.8709 1.3662 0.033 0 -0 1.5708</pose>
+        <pose>2.8709 1.3662 0.033 0 0 1.5708</pose>
         <scale>1 1 1</scale>
         <link name='chair'>
-          <pose>2.8709 1.3662 0.4 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>2.8709 1.3662 0.4 0 0 1.5708</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_chair_4'>
-        <pose>4.11515 1.34372 0.033 0 -0 1.5708</pose>
+        <pose>4.11515 1.34372 0.033 0 0 1.5708</pose>
         <scale>1 1 1</scale>
         <link name='chair'>
-          <pose>4.11515 1.34372 0.4 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>4.11515 1.34372 0.4 0 0 1.5708</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_table_great_0'>
-        <pose>2 -3 0.033 0 -0 0</pose>
+        <pose>2 -3 0.033 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='great_table'>
-          <pose>2 -3 0.445 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>2 -3 0.445 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
@@ -409,20 +409,20 @@
         <scale>1 1 1</scale>
         <link name='great_table'>
           <pose>-0.58975 4.27266 0.445 0 0 -1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <model name='lar_shelf'>
-        <pose>3.19293 -4.363109 0.033 0 -0 1.5708</pose>
+        <pose>3.19293 -4.363109 0.033 0 0 1.5708</pose>
         <scale>1 1 1</scale>
         <link name='shelf'>
-          <pose>3.19293 -4.2895 1.01 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>3.19293 -4.2895 1.01 0 0 1.5708</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
@@ -431,24 +431,24 @@
         <scale>1 1 1</scale>
         <link name='wardrobe'>
           <pose>4.53367 -1.94275 0.585 0 0 -3.14159</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       <model name='lar_wardrobe_1'>
-        <pose>1.31006 4.27998 0.03365 0 -0 -1.5708</pose>
+        <pose>1.31006 4.27998 0.03365 0 0 -1.5708</pose>
         <scale>1 1 1</scale>
         <link name='wardrobe'>
-          <pose>0 0 0.585 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>0 0 0.585 0 0 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
+          <acceleration>0 0 0 0 0 0</acceleration>
+          <wrench>0 0 0 0 0 0</wrench>
         </link>
       </model>
       
       <light name='sun'>
-        <pose>0 0 10 0 -0 0</pose>
+        <pose>0 0 10 0 0 0</pose>
       </light>
       
       <light name='light_0'>
