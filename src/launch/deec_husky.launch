@@ -9,6 +9,7 @@
 
   <!--  husky_gazebo args -->
   <arg name="robot_namespace" default="/"/>
+  <arg name="joystick" default="false" />
   
   <!-- Position of Husky -->
   <arg name="x" default="-3.2"/>
@@ -26,6 +27,7 @@
   <!-- include husky_gazebo launcher -->
   <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
     <arg name="robot_namespace" value="$(arg robot_namespace)"/>
+    <arg name="joystick" value="$(arg joystick)"/>
     <arg name="x" value="$(arg x)"/>
     <arg name="y" value="$(arg y)"/>
     <arg name="z" value="$(arg z)"/>
